@@ -3,7 +3,7 @@
 # Версия: 2.0 Comprehensive Edition
 # Назначение: Максимально полный список для проксирования всех крупных криптобирж
 # Источники: ChatGPT + DeepSeek-V3 + Claude + актуальные данные 2025
-# Использование: RULE-SET,https://raw.githubusercontent.com/unodesta/shadowrocket-rules-lists/refs/heads/main/rules/crypto_exchanges.list,PROXY
+# Использование: RULE-SET,https://raw.githubusercontent.com/unodesta/shadowrocket-rules-lists/refs/heads/main/rules/crypto_exchanges_cl.list,PROXY
 
 # ========================================
 # BINANCE ЭКОСИСТЕМА
