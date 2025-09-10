@@ -1,0 +1,609 @@
+# ===================================================
+# Ultimate Crypto Exchanges RULE-SET for Shadowrocket
+# Синтез и анализ: Crypto_Claude.txt, Crypto_Deepseek.txt, Crypto_Chat_GPT.txt
+# Обновлено: Сентябрь 2025 | Версия: 3.0
+# Стратегия: PROXY для всех криптобирж, кошельков и аналитики
+# Использование: RULE-SET,https://your-link/crypto_exchanges.list,PROXY
+# ===================================================
+
+# ========================================
+# BINANCE ЭКОСИСТЕМА
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.net
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbchain.org
+DOMAIN-SUFFIX,bnbchain.world
+DOMAIN-SUFFIX,binance-docs.github.io
+DOMAIN-KEYWORD,binance
+
+# API эндпоинты
+DOMAIN-SUFFIX,api.binance.com
+DOMAIN-SUFFIX,api1.binance.com
+DOMAIN-SUFFIX,api2.binance.com
+DOMAIN-SUFFIX,api3.binance.com
+DOMAIN-SUFFIX,stream.binance.com
+DOMAIN-SUFFIX,fapi.binance.com
+DOMAIN-SUFFIX,dapi.binance.com
+DOMAIN-SUFFIX,vapi.binance.com
+
+# WebSocket соединения
+DOMAIN-SUFFIX,ws-api.binance.com
+DOMAIN-SUFFIX,data-stream.binance.vision
+
+# Важные CDN и сервисы
+DOMAIN,bpay.binance.com
+DOMAIN,binancecdn.com
+DOMAIN,broker.binance.com
+DOMAIN,card.binance.com
+DOMAIN,capital.binance.com
+DOMAIN,earn.binance.com
+DOMAIN,githubproduction.com
+DOMAIN-SUFFIX,bin-prod-user-rebate-bucket.s3.ap-northeast-1.amazonaws.com
+DOMAIN-SUFFIX,public.bnbstatic.com
+
+# IP диапазоны (AWS, Cloudflare, Alibaba)
+IP-CIDR,34.216.0.0/14,no-resolve
+IP-CIDR,35.71.64.0/18,no-resolve
+IP-CIDR,35.71.128.0/17,no-resolve
+IP-CIDR,35.72.0.0/13,no-resolve
+IP-CIDR,35.80.0.0/12,no-resolve
+IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,13.32.0.0/15,no-resolve
+IP-CIDR,54.230.0.0/16,no-resolve
+IP-CIDR,99.84.0.0/16,no-resolve
+IP-CIDR,99.79.64.0/21,no-resolve
+IP-CIDR,108.128.184.0/21,no-resolve
+IP-CIDR,15.197.192.0/20,no-resolve
+IP-CIDR,52.222.0.0/15,no-resolve
+
+# ========================================
+# BYBIT
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.org
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,bybithost.com
+DOMAIN-SUFFIX,byderiv.com
+DOMAIN-SUFFIX,bytetrading.com
+DOMAIN-SUFFIX,bytexpert.com
+DOMAIN-SUFFIX,bybit.network
+DOMAIN-SUFFIX,bybit-exchange.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-KEYWORD,bybit
+
+# API эндпоинты
+DOMAIN-SUFFIX,api.bybit.com
+DOMAIN-SUFFIX,api.bytick.com
+DOMAIN-SUFFIX,api-testnet.bybit.com
+DOMAIN-SUFFIX,stream.bybit.com
+DOMAIN-SUFFIX,stream-testnet.bybit.com
+
+# WebSocket
+DOMAIN-SUFFIX,wss.bybit.com
+
+# CDN и статические ресурсы
+DOMAIN-SUFFIX,static.bybit.com
+DOMAIN-SUFFIX,img.bybit.com
+
+# IP диапазоны
+IP-CIDR,83.64.41.136/29,no-resolve
+IP-CIDR,83.64.37.132/30,no-resolve
+IP-CIDR,104.18.0.0/20,no-resolve
+IP-CIDR,104.18.0.0/24,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+IP-CIDR,108.162.192.0/18,no-resolve
+IP-CIDR,3.165.181.94/32,no-resolve
+
+# ========================================
+# OKX (OKEx)
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okex.me
+DOMAIN-SUFFIX,okex.info
+DOMAIN-SUFFIX,okex.mobi
+DOMAIN-SUFFIX,okex.org
+DOMAIN-SUFFIX,okex.news
+DOMAIN-SUFFIX,okex.ws
+DOMAIN-SUFFIX,okex.team
+DOMAIN-SUFFIX,okex.plus
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okcoin.com
+DOMAIN-SUFFIX,okx.com.tr
+DOMAIN-KEYWORD,okex
+DOMAIN-KEYWORD,okx
+
+# API эндпоинты
+DOMAIN-SUFFIX,aws.okx.com
+DOMAIN-SUFFIX,www.okx.com
+DOMAIN-SUFFIX,static.okx.com
+
+# WebSocket
+DOMAIN-SUFFIX,real.okx.com
+DOMAIN-SUFFIX,ws.okx.com
+
+# IP диапазоны
+IP-CIDR,18.139.0.0/16,no-resolve
+IP-CIDR,47.244.0.0/16,no-resolve
+IP-CIDR,52.220.0.0/16,no-resolve
+IP-CIDR,13.250.0.0/16,no-resolve
+
+# ========================================
+# HUOBI / HTX
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,htx.com
+DOMAIN-SUFFIX,htx.in
+DOMAIN-SUFFIX,htx.ink
+DOMAIN-SUFFIX,huobi.me
+DOMAIN-SUFFIX,huobi.info
+DOMAIN-SUFFIX,huobi.li
+DOMAIN-SUFFIX,huobi.pr
+DOMAIN-SUFFIX,huobi.team
+DOMAIN-SUFFIX,huobi.ws
+DOMAIN-SUFFIX,huobi.ae
+DOMAIN-SUFFIX,huobi.pro
+DOMAIN-SUFFIX,huobiglobal.com
+DOMAIN-SUFFIX,hbfile.net
+DOMAIN-KEYWORD,huobi
+DOMAIN-KEYWORD,htx
+
+# API
+DOMAIN-SUFFIX,api.huobi.pro
+DOMAIN-SUFFIX,api.htx.com
+DOMAIN-SUFFIX,aws.htx.com
+
+# WebSocket
+DOMAIN-SUFFIX,ws.huobi.com
+DOMAIN-SUFFIX,api-ws.huobi.pro
+
+# CDN
+DOMAIN-SUFFIX,static.huobi.pro
+DOMAIN-SUFFIX,img.htx.com
+
+# IP диапазоны
+IP-CIDR,18.182.0.0/16,no-resolve
+IP-CIDR,47.74.0.0/16,no-resolve
+IP-CIDR,39.104.0.0/16,no-resolve
+
+# ========================================
+# KUCOIN
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,kucoin.net
+DOMAIN-SUFFIX,kucoinapi.com
+DOMAIN-SUFFIX,kucoin.news
+DOMAIN-SUFFIX,kucoin.cc
+DOMAIN-SUFFIX,kucoin.xyz
+DOMAIN-SUFFIX,kucoin.org
+DOMAIN-SUFFIX,kucoin.team
+DOMAIN-SUFFIX,kucoin.us
+DOMAIN-SUFFIX,kcs.network
+DOMAIN-KEYWORD,kucoin
+
+# API
+DOMAIN-SUFFIX,api.kucoin.com
+DOMAIN-SUFFIX,openapi-v2.kucoin.com
+DOMAIN-SUFFIX,openapi-sandbox.kucoin.com
+
+# WebSocket
+DOMAIN-SUFFIX,push1.kucoin.com
+DOMAIN-SUFFIX,push2.kucoin.com
+DOMAIN-SUFFIX,push3.kucoin.com
+
+# IP диапазоны
+IP-CIDR,13.32.213.0/24,no-resolve
+IP-CIDR,139.224.0.0/16,no-resolve
+IP-CIDR,47.91.0.0/16,no-resolve
+IP-CIDR,120.79.0.0/16,no-resolve
+
+# ========================================
+# MEXC
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexcio.com
+DOMAIN-SUFFIX,mexc.ai
+DOMAIN-SUFFIX,mexcs.com
+DOMAIN-SUFFIX,mexc.ink
+DOMAIN-SUFFIX,mexco.com
+DOMAIN-SUFFIX,mexcoin.com
+DOMAIN-SUFFIX,mexexchange.com
+DOMAIN-SUFFIX,mxc.com
+DOMAIN-SUFFIX,mexc.co
+DOMAIN-KEYWORD,mexc
+
+# API
+DOMAIN-SUFFIX,api.mexc.com
+DOMAIN-SUFFIX,contract.mexc.com
+
+# WebSocket
+DOMAIN-SUFFIX,wbs.mexc.com
+
+# IP диапазоны
+IP-CIDR,18.138.0.0/16,no-resolve
+IP-CIDR,47.91.128.0/17,no-resolve
+
+# ========================================
+# GATE.IO
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gate-api.com
+DOMAIN-SUFFIX,gatet.io
+DOMAIN-SUFFIX,gateorg.com
+DOMAIN-SUFFIX,gateweb.io
+DOMAIN-SUFFIX,gatecdn.com
+DOMAIN-SUFFIX,gatetech.io
+DOMAIN-SUFFIX,gateio.life
+DOMAIN-SUFFIX,gatedata.org
+DOMAIN-KEYWORD,gateio
+
+# API
+DOMAIN-SUFFIX,api.gateio.ws
+DOMAIN-SUFFIX,fx-api.gateio.ws
+
+# WebSocket
+DOMAIN-SUFFIX,fx-ws.gateio.ws
+
+# IP диапазоны
+IP-CIDR,47.91.0.0/16,no-resolve
+IP-CIDR,8.210.0.0/16,no-resolve
+
+# ========================================
+# COINBASE
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coinbase.pro
+DOMAIN-SUFFIX,pro.coinbase.com
+DOMAIN-SUFFIX,coinbasecloud.net
+DOMAIN-SUFFIX,coinbasecloud.com
+DOMAIN-SUFFIX,coinbase-consumer.sjv.io
+DOMAIN-SUFFIX,cbwallet.com
+DOMAIN-SUFFIX,coinbase.exchange
+DOMAIN-SUFFIX,coinbase.info
+DOMAIN-SUFFIX,coinbase-assets.com
+DOMAIN-SUFFIX,coinbaseblog.com
+DOMAIN-SUFFIX,coinbaseconsumer.com
+DOMAIN-SUFFIX,coinbase-corp.com
+DOMAIN-SUFFIX,coinbasedevs.com
+DOMAIN-SUFFIX,coinbaseops.com
+DOMAIN-SUFFIX,coinbasepartners.com
+DOMAIN-SUFFIX,coinbasesupport.com
+DOMAIN-SUFFIX,exchange.coinbase.com
+DOMAIN-KEYWORD,coinbase
+
+# API
+DOMAIN-SUFFIX,api.coinbase.com
+DOMAIN-SUFFIX,api.pro.coinbase.com
+DOMAIN-SUFFIX,api-public.sandbox.pro.coinbase.com
+
+# WebSocket
+DOMAIN-SUFFIX,ws-feed.pro.coinbase.com
+DOMAIN-SUFFIX,ws-feed.sandbox.pro.coinbase.com
+
+# CDN
+DOMAIN-SUFFIX,images.ctfassets.net
+DOMAIN-SUFFIX,assets.coinbase.com
+
+# IP диапазоны
+IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,54.230.0.0/16,no-resolve
+
+# ========================================
+# KRAKEN
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kraken.app
+DOMAIN-SUFFIX,kraken.fluidui.com
+DOMAIN-SUFFIX,kraken.engineering
+DOMAIN-SUFFIX,krakenflex.com
+DOMAIN-SUFFIX,k-assets.net
+DOMAIN-SUFFIX,krakenassets.com
+DOMAIN-KEYWORD,kraken
+
+# API
+DOMAIN-SUFFIX,api.kraken.com
+DOMAIN-SUFFIX,futures.kraken.com
+
+# WebSocket
+DOMAIN-SUFFIX,ws.kraken.com
+DOMAIN-SUFFIX,ws-auth.kraken.com
+
+# IP диапазоны
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR,104.20.0.0/20,no-resolve
+IP-CIDR,172.67.0.0/16,no-resolve
+
+# ========================================
+# BITFINEX
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bitfinex.net
+DOMAIN-SUFFIX,bfxdata.com
+DOMAIN-SUFFIX,bfxcdn.com
+DOMAIN-SUFFIX,bfx.report
+DOMAIN-KEYWORD,bitfinex
+
+# API
+DOMAIN-SUFFIX,api.bitfinex.com
+DOMAIN-SUFFIX,api-pub.bitfinex.com
+
+# IP диапазоны
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+
+# ========================================
+# CRYPTO.COM
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,crypto.com
+DOMAIN-SUFFIX,crypto.org
+DOMAIN-SUFFIX,cryptocom-exchange.com
+DOMAIN-SUFFIX,cronos.org
+DOMAIN-SUFFIX,cdc.com
+DOMAIN-SUFFIX,cro.com
+DOMAIN-KEYWORD,crypto.com
+
+# API
+DOMAIN-SUFFIX,uat-api.3rdparty.exchange.crypto.com
+DOMAIN-SUFFIX,api.crypto.com
+
+# WebSocket
+DOMAIN-SUFFIX,stream.crypto.com
+
+# IP диапазоны
+IP-CIDR,104.18.0.0/20,no-resolve
+
+# ========================================
+# BITGET
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.org
+DOMAIN-SUFFIX,bitget.io
+DOMAIN-SUFFIX,bitget.ws
+DOMAIN-SUFFIX,bitget.tools
+DOMAIN-SUFFIX,bitget.news
+DOMAIN-SUFFIX,bitgetlimited.com
+DOMAIN-SUFFIX,bitget.info
+DOMAIN-KEYWORD,bitget
+
+# API
+DOMAIN-SUFFIX,api.bitget.com
+DOMAIN-SUFFIX,capi.bitget.com
+
+# WebSocket
+DOMAIN-SUFFIX,ws.bitget.com
+
+# IP диапазоны
+IP-CIDR,47.243.0.0/16,no-resolve
+IP-CIDR,8.219.0.0/16,no-resolve
+
+# ========================================
+# BINGX
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,bingx.com
+DOMAIN-SUFFIX,bingx.tv
+DOMAIN-KEYWORD,bingx
+
+# ========================================
+# WHITEBIT
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,whitebit.com
+DOMAIN-SUFFIX,whitebit.trade
+DOMAIN-KEYWORD,whitebit
+
+# ========================================
+# BITSTAMP
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,bitstamp.net
+DOMAIN-SUFFIX,bitstamp.com
+
+# API
+DOMAIN-SUFFIX,www.bitstamp.net
+
+# WebSocket
+DOMAIN-SUFFIX,ws.bitstamp.net
+
+# ========================================
+# GEMINI
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,gemini24.zendesk.com
+DOMAIN-SUFFIX,gemini-systems.net
+DOMAIN-SUFFIX,gemini-trader.com
+DOMAIN-KEYWORD,gemini
+
+# API
+DOMAIN-SUFFIX,api.gemini.com
+DOMAIN-SUFFIX,api.sandbox.gemini.com
+
+# ========================================
+# BITHUMB
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,bithumb.com
+DOMAIN-SUFFIX,bithumb.pro
+
+# API
+DOMAIN-SUFFIX,api.bithumb.com
+DOMAIN-SUFFIX,global-openapi.bithumb.pro
+
+# ========================================
+# UPBIT
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,upbit.com
+DOMAIN-SUFFIX,upbit.co.kr
+
+# API
+DOMAIN-SUFFIX,api.upbit.com
+
+# ========================================
+# POLONIEX
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,poloniex.org
+
+# API
+DOMAIN-SUFFIX,api.poloniex.com
+
+# WebSocket
+DOMAIN-SUFFIX,api2.poloniex.com
+
+# ========================================
+# COINLIST
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,coinlist.co
+DOMAIN-SUFFIX,coinlist.com
+
+# ========================================
+# FTX (исторический)
+# ========================================
+# Основные домены
+DOMAIN-SUFFIX,ftx.com
+DOMAIN-SUFFIX,ftx.us
+
+# ========================================
+# DEX И DEFI ПРОТОКОЛЫ
+# ========================================
+# Uniswap
+DOMAIN-SUFFIX,uniswap.org
+DOMAIN-SUFFIX,uniswap.exchange
+
+# 1inch
+DOMAIN-SUFFIX,1inch.io
+DOMAIN-SUFFIX,1inch.exchange
+
+# SushiSwap
+DOMAIN-SUFFIX,sushi.com
+DOMAIN-SUFFIX,sushiswap.org
+
+# PancakeSwap
+DOMAIN-SUFFIX,pancakeswap.finance
+
+# Curve
+DOMAIN-SUFFIX,curve.fi
+
+# ========================================
+# КОШЕЛЬКИ И СЕРВИСЫ
+# ========================================
+# MetaMask
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,metamask.app
+
+# Trust Wallet
+DOMAIN-SUFFIX,trustwallet.com
+
+# Phantom
+DOMAIN-SUFFIX,phantom.app
+
+# Exodus
+DOMAIN-SUFFIX,exodus.io
+DOMAIN-SUFFIX,exodus.com
+
+# Ledger
+DOMAIN-SUFFIX,ledger.com
+
+# Trezor
+DOMAIN-SUFFIX,trezor.io
+
+# Safepal
+DOMAIN-SUFFIX,safepal.io
+DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,safepalwallet.com
+IP-CIDR,47.88.0.0/16,no-resolve
+IP-CIDR,8.218.0.0/16,no-resolve
+
+# ========================================
+# АНАЛИТИКА И ДАННЫЕ
+# ========================================
+# CoinGecko
+DOMAIN-SUFFIX,coingecko.com
+
+# CoinMarketCap  
+DOMAIN-SUFFIX,coinmarketcap.com
+
+# CoinLayer
+DOMAIN-SUFFIX,coinlayer.com
+
+# CoinPaprika
+DOMAIN-SUFFIX,coinpaprika.com
+
+# LiveCoinWatch
+DOMAIN-SUFFIX,livecoinwatch.com
+
+# DexScreener
+DOMAIN-SUFFIX,dexscreener.com
+
+# GeckoTerminal
+DOMAIN-SUFFIX,geckoterminal.com
+
+# DeFiPulse
+DOMAIN-SUFFIX,defipulse.com
+
+# CoinDesk
+DOMAIN-SUFFIX,coindesk.com
+
+# ========================================
+# ДОПОЛНИТЕЛЬНЫЕ CDN И API СЕРВЕРЫ
+# ========================================
+# Общие CDN диапазоны криптобирж (AWS CloudFront)
+IP-CIDR,13.32.0.0/15,no-resolve
+IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,54.230.0.0/16,no-resolve
+IP-CIDR,99.84.0.0/16,no-resolve
+IP-CIDR,143.204.0.0/16,no-resolve
+IP-CIDR,144.220.0.0/16,no-resolve
+
+# Cloudflare диапазоны
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+IP-CIDR,108.162.192.0/18,no-resolve
+IP-CIDR,198.41.128.0/17,no-resolve
+
+# Азиатские дата-центры (Alibaba Cloud)
+IP-CIDR,47.74.0.0/16,no-resolve
+IP-CIDR,47.91.0.0/16,no-resolve
+IP-CIDR,8.210.0.0/16,no-resolve
+IP-CIDR,139.224.0.0/16,no-resolve
+IP-CIDR,47.243.0.0/16,no-resolve
+IP-CIDR,8.219.0.0/16,no-resolve
+
+# AWS Singapore и другие регионы
+IP-CIDR,18.138.0.0/16,no-resolve
+IP-CIDR,18.139.0.0/16,no-resolve
+IP-CIDR,18.182.0.0/16,no-resolve
+IP-CIDR,52.220.0.0/16,no-resolve
+IP-CIDR,13.250.0.0/16,no-resolve
+
+# Дополнительные серверные диапазоны
+IP-CIDR,39.104.0.0/16,no-resolve
+IP-CIDR,120.79.0.0/16,no-resolve
+IP-CIDR,47.244.0.0/16,no-resolve
+
+# GitHub для документации и обновлений
+DOMAIN-SUFFIX,githubproduction.com
