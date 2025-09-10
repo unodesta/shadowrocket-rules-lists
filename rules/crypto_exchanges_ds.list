@@ -3,7 +3,7 @@
 # Синтез и анализ: Crypto_Claude.txt, Crypto_Deepseek.txt, Crypto_Chat_GPT.txt
 # Обновлено: Сентябрь 2025 | Версия: 3.0
 # Стратегия: PROXY для всех криптобирж, кошельков и аналитики
-# Использование: RULE-SET,https://your-link/crypto_exchanges.list,PROXY
+# Использование: RULE-SET,https://raw.githubusercontent.com/unodesta/shadowrocket-rules-lists/refs/heads/main/rules/crypto_exchanges_ds.list,PROXY
 # ===================================================
 
 # ========================================
